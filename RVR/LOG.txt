@@ -1,0 +1,27 @@
+VERSIÓN 1.2   | 08/07/18 17:38
+{
+*Añadido nuevo atributo HTML:
+	clases: Dentro del atributo clases se establecerán las clases del nodo, omitiendo
+	la necesidad de escribir las clases dentro de cada medida.
+	Se recomienda terminantemente no usar el atributo class, usas clases en su lugar.
+}
+
+VERSIÓN 1.1.2   | 06/07/18 23:10
+{
+*Nuevas medidas añadidas:
+	wh: Unidad de medida para anchura en base de unidades de altura (wh1 = h1).
+	hw: Unidad de medida para altura en base de unidades de anchura (hw1 = w1).
+	lh: Unidad de medida para espacio a la izquierda en unidades de altura (lh1 = h1).
+	rh: Unidad de medida para espacio a la derecha en unidades de altura (rh1 = h1).
+	tw: Unidad de medida para espacio superior en unidades de anchura (tw1 = w1).
+	bw: Unidad de medida para espacio inferior en unidades de anchura (bw1 = w1).
+*Añadido soporte responsivo para SweetAlert2, dispositivos de escritorio y móbiles.
+}
+
+VERSIÓN 1.1   | 05/07/18 3:44
+{
+*Añadido soporte para extensiones y plugins para dispositivos mobiles mediante Polyfill.
+*Mejora al sistema de medición de pantalla.
+}
+
+VERSIÓN 1.0.2 | 04/07/18 23:39

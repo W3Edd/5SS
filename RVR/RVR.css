@@ -1,0 +1,24 @@
+body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+*:focus{outline: 0;}
+:not([class|="swal2"]){
+	position: absolute;
+	transition: 0.2s;
+}
+p,select{position: absolute;}
+.w05{width: 4.16vw;}.w1{width: 8.33vw;}.w2{width: 16.66vw;}.w3{width: 25vw;}.w4{width: 33.33vw;}.w5{width: 41.66vw;}.w6{width: 50vw;}.w7{width: 58.33vw;}.w8{width: 66.66vw;}.w9{width: 75vw;}.w10{width: 83.33vw;}.w11{width: 91.66vw;}.w12{width: 100vw;}
+.h05{height: 4.16vh;}.h1{height: 8.33vh;}.h2{height: 16.66vh;}.h3{height: 25vh;}.h4{height: 33.33vh;}.h5{height: 41.66vh;}.h6{height: 50vh;}.h7{height: 58.33vh;}.h8{height: 66.66vh;}.h9{height: 75vh;}.h10{height: 83.33vh;}.h11{height: 91.66vh;}.h12{height: 100vh;}
+.l0{left: 0;}.l05{left: 4.16vw;}.l1{left: 8.33vw;}.l2{left: 16.66vw;}.l3{left: 25vw;}.l4{left: 33.33vw;}.l5{left: 41.66vw;}.l6{left: 50vw;}.l7{left: 58.33vw;}.l8{left: 66.66vw;}.l9{left: 75vw;}.l10{left: 83.33vw;}.l11{left: 91.66vw;}.l12{left:100vw;}
+.r0{right: 0;}.r05{right: 4.16;}.r1{right: 8.33vw;}.r2{right: 16.66vw;}.r3{right: 25vw;}.r4{right: 33.33vw;}.r5{right: 41.66vw;}.r6{right: 50vw;}.r7{right: 58.33vw;}.r8{right: 66.66vw;}.r9{right: 75vw;}.r10{right: 83.33vw;}.r11{right: 91.66vw;}.r12{right: 100vw;}
+.t0{top: 0;}.t05{top: 4.16;}.t1{top: 8.33vh;}.t2{top: 16.66vh;}.t3{top: 25vh;}.t4{top: 33.33vh;}.t5{top: 41.66vh;}.t6{top: 50vh;}.t7{top: 58.33vh;}.t8{top: 66.66vh;}.t9{top: 75vh;}.t10{top: 83.33vh;}.t11{top: 91.66vh;}.t12{top:100vh;}
+.b0{bottom: 0;}.b05{bottom: 4.16;}.b1{bottom: 8.33vh;}.b2{bottom: 16.66vh;}.b3{bottom: 25vh;}.b4{bottom: 33.33vh;}.b5{bottom: 41.66vh;}.b6{bottom: 50vh;}.b7{bottom: 58.33vh;}.b8{bottom: 66.66vh;}.b9{bottom: 75vh;}.b10{bottom: 83.33vh;}.b11{bottom: 91.66vh;}.b12{bottom:100vh;}
+.f1{font-size: 0.2em;}.f2{font-size: 0.5em;}.f25{font-size: 0.75em;}.f3{font-size: 1em;}.f35{font-size: 1.25em;}.f4{font-size: 1.5em;}.f5{font-size: 2em;}.f6{font-size: 3em;}
+.wh1{width: 8.33vh;}.wh2{width: 16.66vh;}.wh3{width: 25vh;}.wh4{width: 33.33vh;}.wh5{width: 41.66vh;}.wh6{width: 50vh;}.wh7{width: 58.33vh;}.wh8{width: 66.66vh;}.wh9{width: 75vh;}.wh10{width: 83.33vh;}.wh11{width: 91.66vh;}.wh12{width: 100vh;}
+.hw1{height: 8.33vw;}.hw2{height: 16.66vw;}.hw3{height: 25vw;}.hw4{height: 33.33vw;}.hw5{height: 41.66vw;}.hw6{height: 50vw;}.hw7{height: 58.33vw;}.hw8{height: 66.66vw;}.hw9{height: 75vw;}.hw10{height: 83.33vw;}.hw11{height: 91.66vw;}.hw12{height: 100vw;}
+.lh0{left: 0;}.lh1{left: 8.33vh;}.lh2{left: 16.66vh;}.lh3{left: 25vh;}.lh4{left: 33.33vh;}.lh5{left: 41.66vh;}.lh6{left: 50vh;}.lh7{left: 58.33vh;}.lh8{left: 66.66vh;}.lh9{left: 75vh;}.lh10{left: 83.33vh;}.lh11{left: 91.66vh;}.lh12{left:100vh;}
+.rh0{right: 0;}.rh1{right: 8.33vh;}.rh2{right: 16.66vh;}.rh3{right: 25vh;}.rh4{right: 33.33vh;}.rh5{right: 41.66vh;}.rh6{right: 50vh;}.rh7{right: 58.33vh;}.rh8{right: 66.66vh;}.rh9{right: 75vh;}.rh10{right: 83.33vh;}.rh11{right: 91.66vh;}.rh12{right: 100vh;}
+.tw0{top: 0;}.tw1{top: 8.33vw;}.tw2{top: 16.66vw;}.tw3{top: 25vw;}.tw4{top: 33.33vw;}.tw5{top: 41.66vw;}.tw6{top: 50vw;}.tw7{top: 58.33vw;}.tw8{top: 66.66vw;}.tw9{top: 75vw;}.tw10{top: 83.33vw;}.tw11{top: 91.66vw;}.tw12{top:100vw;}
+.bw0{bottom: 0;}.bw1{bottom: 8.33vw;}.bw2{bottom: 16.66vw;}.bw3{bottom: 25vw;}.bw4{bottom: 33.33vw;}.bw5{bottom: 41.66vw;}.bw6{bottom: 50vw;}.bw7{bottom: 58.33vw;}.bw8{bottom: 66.66vw;}.bw9{bottom: 75vw;}.bw10{bottom: 83.33vw;}.bw11{bottom: 91.66vw;}.bw12{bottom:100vw;}

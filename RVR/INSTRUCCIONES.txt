@@ -1,0 +1,90 @@
+RESPONSIVE
+VLACK
+ROOSTER
+
+VERSIÓN 1.0.2 | 04/07/18 23:39
+
+- INSTRUCCIONES -
+~-~-~-~-~-~-~-~-~-~-~-~
+Importar los archivos en las carpetas y documentos correspondientes.
+
+Para marcar un nodo como objeto RVR ha de establercese "RVR" al incio del id del nodo, seguido del id deseado.
+
+	<a id="RVRidGenerico"></a>
+
+RVR utiliza 3 medidas para redimesionar los objetos de acuerdo al tamaño del la pantalla.
+
+	small	->	screen.width <= 600px
+	mid	->	screen.width > 600px Y <= 900px
+	large	->	screen.width > 900px
+
+Los dispositivos móbiles son automaticamente asignados con el tamaño small sin importar su resolución.
+
+La pantalla del dispositivo cliente se divide en un grid de 12 * 12, es decir,
+cualquier pantalla tendrá un ancho de 12 unidades por un alto de 12 unidades,
+como se muestra a continuación.
+
+	   1  2  3  4  5  6  7  8  9  10  11  12
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12
+
+Para asignar medidas a los nodos HTML, es necesario añadir 3 atributos a cada nodo.
+
+	large=""
+	mid=""
+	small=""
+
+Dentro de cada atributo deben establerce las medidas deseadas para el nodo de acuerdo
+al tamaño de la pantalla.
+Las dimensiones deben ser descritas con el siguiente formato:
+
+	DIMENSION~MEDIDA
+
+Por ejemplo
+
+	w5 l6
+
+Los objetos de medida son:
+
+	w	Representa 1/12 del ancho de la pantalla, el numero a su derecha indica
+cuantas unidades deberán ser utilizadas. Por ejemplo
+	w6	Indica que el nodo tendra un ancho de 6/12 de pantalla
+
+	h	Representa 1/12 de la altura de la pantalla, el numero a su derecha indica
+cuantas unidades deberán ser utilizadas.
+	l	Representa un margen izquierdo de 1/12 del ancho de la pantalla, el numero a su derecha indica
+cuantas unidades deberán ser utilizadas.
+	t	Representa un margen superior de 1/12 de la altura de la pantalla, el numero a su derecha indica
+cuantas unidades deberán ser utilizadas.
+	r	Representa un margen derecho de 1/12 del ancho de la pantalla, el numero a su derecha indica
+cuantas unidades deberán ser utilizadas.
+	b	Representa un margen inferior de 1/12 de la altura de la pantalla, el numero a su derecha indica
+cuantas unidades deberán ser utilizadas.
+	f	Representa el tamaño del texto. Las medidas van desde f1 hasta f6.
+
+A continuación un ejemplo de un uso normal de lo atributos
+
+<div id="RVRlogin" large="w8 h6 l2 t3" mid="w10 h6 l1 t3" small="w12 h6 l0 t3"></div>
+
+Dentro de cada atributo debe incluirse, además de las medidas, cualquier clase adicional
+que desee para el nodo. La clase debe incluirse dentro de todos los atributos de medida,
+y nunca dentro del atributo class.
+
+<div id="RVRlogin" class="circular" large="w8 h6 l2 t3" mid="w10 h6 l1 t3" small="w12 h6 l0 t3">
+
+El ejemplo de arriba no funcionará, mientras que el de abajo si.
+
+<div id="RVRlogin" large="w8 h6 l2 t3 circular" mid="w10 h6 l1 t3 circular" small="w12 h6 l0 t3 circular">
+
+La regla CSS "position" ha sido establecida como "absolute" para todos los nodos del documento.
+Debe sobreescribirse para cada nodo que se desee de forma contraria.
